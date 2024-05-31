@@ -15,3 +15,112 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('./fonts/Gotham-Black.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('./fonts/Gotham-Bold.otf') format('opentype'),
+       url('./fonts/GothamBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('./fonts/GothamBook.ttf') format('truetype'),
+       url('./fonts/Gotham-BookItalic.otf') format('opentype'),
+       url('./fonts/GothamBookItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('./fonts/Gotham-Light.otf') format('opentype'),
+       url('./fonts/GothamLight.ttf') format('truetype'),
+       url('./fonts/GothamLightItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('./fonts/GothamMedium.ttf') format('truetype'),
+       url('./fonts/GothamMedium_1.ttf') format('truetype'),
+       url('./fonts/GothamMediumItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Thin';
+  src: url('./fonts/Gotham-Thin.otf') format('opentype'),
+       url('./fonts/Gotham-ThinItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham UltraItalic';
+  src: url('./fonts/Gotham-UltraItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham XLight';
+  src: url('./fonts/Gotham-XLight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham XLight Italic';
+  src: url('./fonts/Gotham-XLightItalic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Définissez les classes de polices pour les différentes variantes */
+
+.font-gotham-black {
+  font-family: 'Gotham Black', sans-serif;
+}
+
+.font-gotham-bold {
+  font-family: 'Gotham Bold', sans-serif;
+}
+
+.font-gotham-book {
+  font-family: 'Gotham Book', sans-serif;
+}
+
+.font-gotham-light {
+  font-family: 'Gotham Light', sans-serif;
+}
+
+.font-gotham-medium {
+  font-family: 'Gotham Medium', sans-serif;
+}
+
+.font-gotham-thin {
+  font-family: 'Gotham Thin', sans-serif;
+}
+
+.font-gotham-ultra-italic {
+  font-family: 'Gotham UltraItalic', sans-serif;
+}
+
+.font-gotham-xlight {
+  font-family: 'Gotham XLight', sans-serif;
+}
+
+.font-gotham-xlight-italic {
+  font-family: 'Gotham XLight Italic', sans-serif;
+}
