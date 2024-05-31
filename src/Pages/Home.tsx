@@ -31,7 +31,7 @@ export default function Home() {
                                 <p>{website.description}</p>
                                 <div className="card-actions justify-end">
                                     <a href={website.url} target='blank'>
-                                        <button className="btn btn-primary text-white tracking-wider button-gradient hover:button-gradient-hover">SEE MORE</button>
+                                        <button className="btn btn-primary text-white tracking-wider">SEE MORE</button>
                                     </a>
                                 </div>
                             </div>
@@ -42,16 +42,16 @@ export default function Home() {
             </div>
             <div className='bg-[#0E0E0E] flex flex-row justify-between'>
                 <div className='flex flex-col justify-between'>
-                    <h1 className='text-gradient pt-4 pb-2'>
+                    <h1 className='pt-4 pb-2'>
                         <span className='mx-4'>
                             Lukas Portier
                         </span>
-                        <span className='text-cwhite'>|</span>
+                        <span className='text-white'>|</span>
                         <span className='mx-4'>
                             Lytzeer
                         </span>
                     </h1>
-                    <span className='mx-4 text-gradient pb-2'>
+                    <span className='mx-4 pb-2'>
                         © 2024
                     </span>
                 </div>
